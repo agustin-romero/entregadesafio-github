@@ -1,0 +1,348 @@
+.principal__titulo--color, h1 {
+  color: blueviolet !important; }
+
+.nav-link {
+  color: blueviolet !important; }
+
+.carouselTxt {
+  color: white; }
+
+.jumbotron__lead2--color {
+  color: black; }
+
+.jumbotron__lead--color {
+  color: black; }
+
+.jumbotron__display--color {
+  color: blueviolet; }
+
+.btn-primary {
+  background-color: blueviolet;
+  color: white; }
+
+.cuadriculas__body--color {
+  color: black; }
+
+.cuadriculas__titulo--color {
+  color: blueviolet; }
+
+.cuadriculas__texto--color {
+  color: black; }
+
+.titulo__encabezado--color {
+  color: black; }
+
+.tituloSty {
+  color: blueviolet; }
+
+.icoFoo {
+  color: white; }
+
+.footerSty {
+  background-color: blueviolet;
+  color: white; }
+
+/*NOSOTROS*/
+h1 .nosotrosColor {
+  color: blueviolet; }
+
+.blueviolet {
+  color: blueviolet; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*map get*/
+.container__fluid--nosotros {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+/* $parrafoDesktop:; */
+/* $parrafoMobile:; */
+.principal__titulo--tamanio {
+  font-size: 3.5rem; }
+  @media only screen and (max-widht: 767px) {
+    .principal__titulo--tamanio {
+      font-size: 2rem; } }
+
+.icoFoo {
+  font-size: 2rem; }
+
+.titulo__encabezado--tamanio {
+  font-size: 1.5rem; }
+
+.cuadriculas__titulo--tamanio {
+  font-size: 1.8rem; }
+
+.cuadriculas__body--tamanio {
+  font-size: 1.5rem; }
+
+.cuadriculas__texto--tamanio {
+  font-size: 1.5rem; }
+
+.btn-primary {
+  font-size: 1.5rem; }
+
+.jumbotron__display--tamanio {
+  font-size: 4rem; }
+
+.jumbotron__lead--tamanio {
+  font-size: 2.5rem; }
+
+.jumbotron__lead2--tamanio {
+  font-size: 1.8rem; }
+
+.carouselTxt {
+  font-size: 5rem; }
+
+.nav-link {
+  font-size: 1.8rem; }
+
+/*NOSOTROS*/
+.cuerpoNosotros {
+  width: 100%; }
+
+.row {
+  width: 100%; }
+
+.container__fluid--nosotros2 {
+  width: 300px;
+  height: 200px;
+  color: violet;
+  background-color: black; }
+
+.navbar {
+  display: flex;
+  justify-content: flex-end !important;
+  flex-wrap: nowrap; }
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end !important; }
+
+.container__fluid--nosotros {
+  padding-left: 15px; }
+
+.container__fluid--nosotros2 {
+  padding-left: 15px; }
+
+/* $parrafoDesktop:; */
+/* $parrafoMobile:; */
+.principal__titulo--tamanio {
+  font-size: 3.5rem; }
+  @media only screen and (max-widht: 767px) {
+    .principal__titulo--tamanio {
+      font-size: 2rem; } }
+
+.icoFoo {
+  font-size: 2rem; }
+
+.titulo__encabezado--tamanio {
+  font-size: 1.5rem; }
+
+.cuadriculas__titulo--tamanio {
+  font-size: 1.8rem; }
+
+.cuadriculas__body--tamanio {
+  font-size: 1.5rem; }
+
+.cuadriculas__texto--tamanio {
+  font-size: 1.5rem; }
+
+.btn-primary {
+  font-size: 1.5rem; }
+
+.jumbotron__display--tamanio {
+  font-size: 4rem; }
+
+.jumbotron__lead--tamanio {
+  font-size: 2.5rem; }
+
+.jumbotron__lead2--tamanio {
+  font-size: 1.8rem; }
+
+.carouselTxt {
+  font-size: 5rem; }
+
+.nav-link {
+  font-size: 1.8rem; }
+
+/*NOSOTROS*/
+.cuerpoNosotros {
+  width: 100%; }
+
+.row {
+  width: 100%; }
+
+.container__fluid--nosotros2 {
+  width: 300px;
+  height: 200px;
+  color: violet;
+  background-color: black; }
+
+.principal__titulo--color, h1 {
+  color: blueviolet !important; }
+
+.nav-link {
+  color: blueviolet !important; }
+
+.carouselTxt {
+  color: white; }
+
+.jumbotron__lead2--color {
+  color: black; }
+
+.jumbotron__lead--color {
+  color: black; }
+
+.jumbotron__display--color {
+  color: blueviolet; }
+
+.btn-primary {
+  background-color: blueviolet;
+  color: white; }
+
+.cuadriculas__body--color {
+  color: black; }
+
+.cuadriculas__titulo--color {
+  color: blueviolet; }
+
+.cuadriculas__texto--color {
+  color: black; }
+
+.titulo__encabezado--color {
+  color: black; }
+
+.tituloSty {
+  color: blueviolet; }
+
+.icoFoo {
+  color: white; }
+
+.footerSty {
+  background-color: blueviolet;
+  color: white; }
+
+/*NOSOTROS*/
+h1 .nosotrosColor {
+  color: blueviolet; }
+
+.blueviolet {
+  color: blueviolet; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*map get*/
+.container__fluid--nosotros {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.footerSty {
+  text-align: center; }
+
+.icoFoo {
+  font-size: 2rem;
+  font-family: montserrat;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 1s;
+  text-align: center;
+  /* padding{
+        left:$padding;
+        right:$padding;
+    } (No los toma) */ }
+
+.icoFoo:hover {
+  color: rgba(255, 255, 255, 0.562); }
+
+.principal__titulo--stylo {
+  text-align: center;
+  font-weight: bolder;
+  font-family: montserrat; }
+
+.titulo__encabezado--stylo {
+  margin: auto;
+  font-family: montserrat;
+  font-weight: bolder; }
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+  font-family: montserrat; }
+
+.cuadriculas__titulo--stylo {
+  font-weight: bolder;
+  font-family: montserrat;
+  padding-top: 10px;
+  text-align: center; }
+
+.cuadriculas__body--stylo {
+  font-weight: bold;
+  font-family: montserrat;
+  padding-top: 10px;
+  text-align: center; }
+
+.cuadriculas__texto--stylo {
+  font-family: montserrat;
+  padding-top: 10px;
+  text-align: center; }
+
+.btn-primary {
+  font-weight: bold;
+  text-align: center;
+  font-family: montserrat; }
+
+.jumbotron__display--stylo {
+  font-weight: bold;
+  text-align: center;
+  font-family: montserrat; }
+
+.jumbotron__lead--stylo {
+  font-weight: bold;
+  text-align: center;
+  font-family: montserrat; }
+
+.jumbotron__lead2--stylo {
+  font-weight: bold;
+  text-align: center;
+  font-family: montserrat; }
+
+.nav-link {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  transition: 1s; }
+
+.nav-link:hover {
+  color: rgba(137, 43, 226, 0.411) !important; }
+
+/*{
+	margin: 0;
+	padding: 0;
+} */
+html {
+  font-size: 62.5%; }
+
+/*body*/
+body {
+  /*background-color: rgb(88, 142, 218); */
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.29' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    font-family: 'Montserrat', 'Roboto'; */
+  overflow-x: hidden;
+  /*padding: 0%; */
+  margin: 0%; }
