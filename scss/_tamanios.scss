@@ -1,0 +1,54 @@
+/* $parrafoDesktop:; */
+/* $parrafoMobile:; */
+$principal__titulo--tamanioDesktop:3.5rem;
+$principal__titulo--tamanioMobile:2rem;
+$icoFoo:2rem;
+$encabezadoSty:1.8rem;
+$titulo__encabezado--tamanio:1.5rem;
+$cuadriculas__body--tamanio:1.5rem;
+$btn-primary:1.5rem;
+$jumbotron__display--tamanio:4rem;
+$jumbotron__lead--tamanio:2.5rem;
+$jumbotron__lead2--tamanio:1.8rem;
+$carouselTxt:5rem;
+$nav-link:1.8rem; 
+$cuadriculas__texto--tamanio:1.5rem;
+$cuadriculas__titulo--tamanio:1.8rem;
+
+.principal__titulo--tamanio{
+    font-size:$principal__titulo--tamanioDesktop;
+    @media only screen and (max-widht:767px){font-size:$principal__titulo--tamanioMobile;}
+}
+.icoFoo{font-size:$icoFoo;}
+.titulo__encabezado--tamanio{font-size:$titulo__encabezado--tamanio;}
+.cuadriculas__titulo--tamanio{font-size:$cuadriculas__titulo--tamanio;} 
+.cuadriculas__body--tamanio{font-size:$cuadriculas__body--tamanio;}
+.cuadriculas__texto--tamanio{font-size:$cuadriculas__texto--tamanio;}
+.btn-primary{font-size:$btn-primary;}
+.jumbotron__display--tamanio{font-size:$jumbotron__display--tamanio;}
+.jumbotron__lead--tamanio{font-size:$jumbotron__lead--tamanio;}
+.jumbotron__lead2--tamanio{font-size:$jumbotron__lead2--tamanio;}
+.carouselTxt{font-size:$carouselTxt;}
+.nav-link{font-size:$nav-link;}
+
+/*NOSOTROS*/
+
+.cuerpoNosotros{
+    width:50%*2;
+}
+
+.row{
+    width: (25% + 25%) *2;
+}
+
+
+@mixin sizes($width, $height){
+    width:$width;
+    height:$height;
+}
+
+.container__fluid--nosotros2{
+    @include sizes(300px,200px);
+    color: violet;
+    background-color: black;
+}

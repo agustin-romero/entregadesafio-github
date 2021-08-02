@@ -1,0 +1,21 @@
+$flex:flex;
+
+.navbar {
+    display:$flex;
+    justify-content:flex-end !important;
+    flex-wrap:nowrap;
+}
+
+.nav-link{
+    display:$flex;
+    justify-content:flex-end !important;
+}
+
+.container__fluid--nosotros{
+    padding-left: 15px;
+}
+
+.container__fluid--nosotros2{
+    padding-left: 15px;
+    
+}

@@ -1,0 +1,43 @@
+$negro:black;
+$blanco:white;
+$violeta:blueviolet;
+
+.principal__titulo--color, h1{color:$violeta !important;}
+.nav-link{color:$violeta !important;}
+.carouselTxt{color:$blanco;}
+.jumbotron__lead2--color{color:$negro;}
+.jumbotron__lead--color{color:$negro;}
+.jumbotron__display--color{color:$violeta;}
+.btn-primary{background-color:$violeta; color:$blanco;}
+.cuadriculas__body--color{color:$negro;}
+.cuadriculas__titulo--color{color:$violeta;}
+.cuadriculas__texto--color{color:$negro;}
+.titulo__encabezado--color{color:$negro;}
+.tituloSty{color:$violeta;}
+.icoFoo{color:$blanco;}
+.footerSty{background-color:$violeta; color:$blanco;}
+
+/*NOSOTROS*/
+
+h1 .nosotrosColor{color:$violeta;}
+
+@each $color in blueviolet, black, white{
+    .#{$color}{
+        color:#{$color};
+    }
+}
+
+/*map get*/
+$estilos: (
+    color: black,
+    centro: center,
+    upper: uppercase,
+    tFuente: 15px,
+);
+    
+.container__fluid--nosotros {
+    text-align: map-get($estilos, centro);
+    color: map-get($estilos, color);
+    font-size:  map-get($estilos, tFuente);
+    text-transform: map-get($estilos, upper);
+}

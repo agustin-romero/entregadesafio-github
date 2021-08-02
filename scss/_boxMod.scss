@@ -1,0 +1,99 @@
+@import "tamanios";
+@import "colores";
+$padding:15px; 
+$font:montserrat;
+$transition:1s;
+$texto:center;
+$weight1:bolder;
+$weight2:bold;
+
+.paddingTB{padding-top: 50px; padding-bottom: 50px;}
+
+.footerSty{
+     text-align:$texto;}
+.icoFoo{
+    font-size:2rem;
+    font-family:$font;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+    transition:$transition;
+    text-align:$texto;
+
+   /* padding{
+        left:$padding;
+        right:$padding;
+    } (No los toma) */
+}
+ 
+.icoFoo:hover{color: rgba(255, 255, 255, 0.562);}
+
+.principal__titulo--stylo{
+    text-align:$texto;
+    font-weight:$weight1;
+    font-family:$font;
+}
+
+.titulo__encabezado--stylo{
+    margin: auto;
+    font-family:$font;
+    font-weight:$weight1;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+    font-family:$font;
+}
+
+.cuadriculas__titulo--stylo{
+    font-weight:$weight1;
+    font-family:$font;
+    padding-top: 10px;
+    text-align:$texto;
+}
+
+.cuadriculas__body--stylo{
+    font-weight:$weight2;
+    font-family:$font;
+    padding-top: 10px;
+    text-align:$texto;
+}
+.cuadriculas__texto--stylo{
+    font-family:$font;
+    padding-top: 10px;
+    text-align:$texto;
+}
+.btn-primary{
+    font-weight:$weight2;
+    text-align:$texto;
+    font-family:$font;
+    
+}
+
+.jumbotron__display--stylo{
+    font-weight:$weight2;
+    text-align:$texto;
+    font-family:$font;
+}
+
+.jumbotron__lead--stylo{
+    font-weight:$weight2;
+    text-align:$texto;
+    font-family:$font;
+}
+
+.jumbotron__lead2--stylo{
+    font-weight:$weight2;
+    text-align:$texto;
+    font-family:$font;
+}
+
+.nav-link{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    transition:$transition;
+}
+
+.nav-link:hover{color: rgba(137, 43, 226, 0.411) !important;}
